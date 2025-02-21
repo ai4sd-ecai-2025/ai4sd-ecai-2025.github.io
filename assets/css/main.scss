@@ -1,6 +1,23 @@
 ---
 ---
 
-$fa-font-path: '{{ site.baseurl }}/assets/webfonts';
+$fa-font-path: "{{ site.baseurl }}/assets/webfonts";
 
-@import 'conference';
+$primary: #a50034 !default;
+$secondary: #8c8279 !default;
+
+$success: #00685e !default;
+$danger: #be3a34 !default;
+$warning: #ffc845 !default;
+$info: #00263e !default;
+
+@import "conference";
+
+.footer-col-wrapper {
+  color: $secondary;
+  font-size: 0.8rem;
+}
+
+.footer-col {
+    margin-bottom: 5em;
+}

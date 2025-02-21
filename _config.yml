@@ -1,26 +1,25 @@
-title: Conference 2020
-preposition: ''
+title: "AI4SD"
+preposition: at
 description: >-
-  Conference of a random organization on January 1st in Zurich, Switzerland
+  Workshop of [Helmut Schmidt University](https://hsu-hh.de/en) and [Fraunhofer FKIE](https://www.fkie.fraunhofer.de/en.html) at [ECAI 2025](https://ecai2025.org/) on October 25th in Bologna, Italy
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://ai4sd-ecai-2025.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+
+theme: jekyll-theme-conference
 
 # Build settings
 markdown: kramdown
 sass:
   style: compressed
 
-# Exclude from processing
+# Additional exclude from processing
 exclude:
+  - vendor
   - .github/
-  - venv/
   - README.md
   - LICENSE.md
   - REDISTRIBUTED.md
-  - screenshot.png
-  - jekyll-theme-conference.gemspec
   - purgecss.config.js
-  - _config.example.yml
 
 # Collections and their defaults
 collections:
@@ -51,22 +50,132 @@ defaults:
     values:
       layout: room
 
-# Theme default values
+
 conference:
+
+  # Language
   lang: en
+
+  # Timezone
+  tz: "+02:00"
+
+  # Show theme errors:
   show_errors: True
 
+  # Navigation bar
+  navigation:
+    logo:
+      name: ECAI 2025
+      img: 'ecai2025_logo.png'
+      url: 'https://ecai2025.org/'
+    breakpoint: md
+    links:
+      - name: Call for Papers
+        relative_url: /call-for-papers/
+      - name: Author Information
+        relative_url: /author-information/
+      - name: Committee
+        relative_url: /committee/
+      - name: Program
+        relative_url: /program/
+      - name: Talks
+        relative_url: /talks/
+      - name: Speakers
+        relative_url: /speakers/
+      - name: Location
+        relative_url: /location/
+
+  # Link Preview for Sharing
   link_preview:
+    # also adapt "preposition" property at top for more meaningful descriptions
     disable: false
+    img:
+      twitter: 'twitter_preview.png'      # inside /assets/images/
+      open_graph: 'facebook_preview.png'  # inside /assets/images/
+
+  # Main landing page
+  main:
+    # logo:
+    #   img: ''
+    links:
+      - name: Call for Papers
+        relative_url: /call-for-papers/
+      - name: Program
+        relative_url: /program/
+      - name: How to get there
+        relative_url: /location/
+      - name: Contact
+        absolute_url: 'mailto:ai4sd@hsu-hh.de'
+
+  # Information boxes
+  info_bars:
+    - color: danger
+      text: |
+        Page under construction. Please check back later.
+    - title: Important dates
+      color: warning
+      main_only: true
+      text: |
+        - **Submission deadline:** tba
+        - **Notification of acceptance:** tba
+        - **Workshop date:** tba
+
+  # Live indications
+  live:
+    date: 25.10.2025
+    timezone: GMT+2
+    stop:       240  # in minutes
+    streaming:
+      enable: false
+      pause:     60  # in minutes
+      prepend:    5  # in minutes
+      extend:     5  # in minutes
+    demo:
+      enable: false
+      duration: 300  # in seconds
+      pause:     10  # in seconds
+
+  talks:
+    # Talk categories
+    main_categories:
+      - name: Keynote
+        color: warning
+      - name: Paper presentation
+        color: success
+
+    # Hide icons on talk overview page
+    hide_icons: false
 
   speakers:
+    # Show first and last name
     show_firstname: true
 
   location:
+    # Disable links to locations
+    hide: false
+    # URL of location / room overview page
     url: '/location'
-    map: true
+    # Main page title shown on location/room navigation bar
+    navbar_title: 'Location'
+    # Show map on location main page.  Set `map: false` if you don't want to
+    # display it.
+    map:
+      # Initial map center point
+      home_coord: 44.5119628, 11.363223
+      # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
+      # The following do match the Bootstrap design not too badly:
+      #   - Thunderforest.Neighbourhood
+      #   - Esri.WorldTopoMap
+      map_provider: "OpenStreetMap.Mapnik"
+      default_zoom: 17
+
 
   program:
+    # URL of program page
     url: '/program'
-    time_steps: 15
+
+    # Time steps in program table
+    time_steps: 15 # in minutes
+
+    # Show intermediary time steps (next to full hours)
     show_alltimes: true
