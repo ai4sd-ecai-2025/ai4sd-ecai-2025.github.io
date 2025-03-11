@@ -22,7 +22,7 @@ permalink: /committee/
 
 - Sabine Apfeld, Fraunhofer Institute for Communication, Information Processing and Ergonomics FKIE
 - Kathrin Bruder, Helmut Schmidt University
-- Aaron Butler, Lucerne Graduate School in Ethics
+- Aaron Butler, Helmut Schmidt University
 - Uwe Hanebeck, Karlsruhe Institute of Technology
 - Stefan Heuser, Technical University Braunschweig
 - Peter Knott, Fraunhofer Institute for High Frequency Physics and Radar Techniques FHR
@@ -36,3 +36,5 @@ permalink: /committee/
 - Dierk Spreen, University of the Federal Armed Forces Munich
 - Kairi Tavles, Research Fellow at Estonian Military Academy
 - Niklas Widulle, Helmut Schmidt University
+- Ali Al Bataineh, Norwich University
+- Brian Glenney, Norwich University

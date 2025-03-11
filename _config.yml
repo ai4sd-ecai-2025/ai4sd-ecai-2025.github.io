@@ -99,7 +99,9 @@ conference:
     #   img: ''
     links:
       - name: Call for Papers
-        relative_url: /call-for-papers/
+        relative_url: /assets/docs/AI4SD_CallForPaper.pdf
+      - name: Submit Paper
+        absolute_url: 'https://easychair.org/conferences?conf=ai4sd'
       - name: Program
         relative_url: /program/
       - name: How to get there
