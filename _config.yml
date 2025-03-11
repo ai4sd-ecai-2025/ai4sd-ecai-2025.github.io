@@ -111,9 +111,6 @@ conference:
 
   # Information boxes
   info_bars:
-    - color: danger
-      text: |
-        Page under construction. Please check back later.
     - title: Important dates
       color: warning
       main_only: true
