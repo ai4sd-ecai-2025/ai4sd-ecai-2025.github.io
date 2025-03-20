@@ -20,21 +20,22 @@ permalink: /committee/
 
 ## Programm Committee
 
+- Simona Pūkienė, Center of Physical Sciences and Technology Vilnius
+- Kairi Tavles, Research Fellow at Estonian Military Academy
 - Sabine Apfeld, Fraunhofer Institute for Communication, Information Processing and Ergonomics FKIE
+- Laura Over, Fraunhofer Institute for Communication, Information Processing and Ergonomics FKIE
+- Hans-Christian Schmitz, Fraunhofer Institute for Communication, Information Processing and Ergonomics FKIE
+- Peter Knott, Fraunhofer Institute for High Frequency Physics and Radar Techniques FHR
+- Karsten Schulz, Fraunhofer Institute of Optronics, System Technologies and Image Exploitation IOSB
+- Lukas Ohly, Goethe University Frankfurt
 - Kathrin Bruder, Helmut Schmidt University
 - Aaron Butler, Helmut Schmidt University
-- Uwe Hanebeck, Karlsruhe Institute of Technology
-- Stefan Heuser, Technical University Braunschweig
-- Peter Knott, Fraunhofer Institute for High Frequency Physics and Radar Techniques FHR
-- Lyudmila Mihaylova, University of Sheffield
-- Lukas Ohly, Goethe University Frankfurt
-- Laura Over, Fraunhofer Institute for Communication, Information Processing and Ergonomics FKIE
-- Simona Pūkienė, Center of Physical Sciences and Technology Vilnius
-- Hans-Christian Schmitz, Fraunhofer Institute for Communication, Information Processing and Ergonomics FKIE
-- Karsten Schulz, Fraunhofer Institute of Optronics, System Technologies and Image Exploitation IOSB
-- Klaus-Dieter Sommer, Technische Universität Ilmenau
-- Dierk Spreen, University of the Federal Armed Forces Munich
-- Kairi Tavles, Research Fellow at Estonian Military Academy
 - Niklas Widulle, Helmut Schmidt University
+- Uwe Hanebeck, Karlsruhe Institute of Technology
 - Ali Al Bataineh, Norwich University
 - Brian Glenney, Norwich University
+- Gianluca Manca, Ruhr-University Bochum
+- Stefan Heuser, Technical University Braunschweig
+- Klaus-Dieter Sommer, Technische Universität Ilmenau
+- Lyudmila Mihaylova, University of Sheffield
+- Dierk Spreen, University of the Federal Armed Forces Munich
