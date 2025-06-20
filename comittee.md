@@ -29,7 +29,6 @@ permalink: /committee/
 - Karsten Schulz, Fraunhofer Institute of Optronics, System Technologies and Image Exploitation IOSB
 - Lukas Ohly, Goethe University Frankfurt
 - Kathrin Bruder, Helmut Schmidt University
-- Aaron Butler, Helmut Schmidt University
 - Niklas Widulle, Helmut Schmidt University
 - Uwe Hanebeck, Karlsruhe Institute of Technology
 - Ali Al Bataineh, Norwich University

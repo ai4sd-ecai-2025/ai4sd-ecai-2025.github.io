@@ -1,7 +1,7 @@
 title: "AI4SD"
 preposition: at
 description: >-
-  Workshop on AI in Security and Defense (AI4SD) by [Helmut Schmidt University](https://hsu-hh.de/en) and [Fraunhofer FKIE](https://www.fkie.fraunhofer.de/en.html) at [ECAI 2025](https://ecai2025.org/) on October 25th or 26th in Bologna, Italy
+  Workshop on AI in Security and Defense (AI4SD) by [Helmut Schmidt University](https://hsu-hh.de/en) and [Fraunhofer FKIE](https://www.fkie.fraunhofer.de/en.html) at [ECAI 2025](https://ecai2025.org/) on October 26th in Bologna, Italy
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ai4sd-ecai-2025.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -118,7 +118,7 @@ conference:
         - **Submission deadline:** Sunday, 13 July 2025, 23:59 AoE
         - **Notification of acceptance:** Wednesday, 6 August 2025, 23:59 AoE
         - **Camera-Ready copy due:** Monday, 6 October 2025, 23:59 AoE
-        - **Workshop date:** Saturday 25 or Sunday 26 October 2025
+        - **Workshop date:** Sunday 26 October 2025
 
   # Live indications
   live:

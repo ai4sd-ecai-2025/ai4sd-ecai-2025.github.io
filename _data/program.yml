@@ -1,9 +1,9 @@
 days:
-- name: Saturday
-  abbr: Sa
-  date: 2025-10-25
+- name: Sunday
+  abbr: Su
+  date: 2025-10-26
   rooms:
-  - name: Room tba
+  - name: Aula 4.2
     talks:
       - name: tba
         time_start: '08:00'
