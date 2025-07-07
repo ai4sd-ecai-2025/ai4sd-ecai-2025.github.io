@@ -50,9 +50,7 @@ defaults:
     values:
       layout: room
 
-
 conference:
-
   # Language
   lang: en
 
@@ -66,8 +64,8 @@ conference:
   navigation:
     logo:
       name: ECAI 2025
-      img: 'ecai2025_logo.png'
-      url: 'https://ecai2025.org/'
+      img: "ecai2025_logo.png"
+      url: "https://ecai2025.org/"
     breakpoint: md
     links:
       - name: Call for Papers
@@ -90,8 +88,8 @@ conference:
     # also adapt "preposition" property at top for more meaningful descriptions
     disable: false
     img:
-      twitter: 'twitter_preview.png'      # inside /assets/images/
-      open_graph: 'facebook_preview.png'  # inside /assets/images/
+      twitter: "twitter_preview.png" # inside /assets/images/
+      open_graph: "facebook_preview.png" # inside /assets/images/
 
   # Main landing page
   main:
@@ -101,13 +99,13 @@ conference:
       - name: Call for Papers
         relative_url: /assets/docs/AI4SD_CallForPaper.pdf
       - name: Submit Paper
-        absolute_url: 'https://easychair.org/conferences?conf=ai4sd'
+        absolute_url: "https://easychair.org/conferences?conf=ai4sd"
       - name: Program
         relative_url: /program/
       - name: How to get there
         relative_url: /location/
       - name: Contact
-        absolute_url: 'mailto:ai4sd@hsu-hh.de'
+        absolute_url: "mailto:ai4sd@hsu-hh.de"
 
   # Information boxes
   info_bars:
@@ -115,7 +113,7 @@ conference:
       color: warning
       main_only: true
       text: |
-        - **Submission deadline:** Sunday, 13 July 2025, 23:59 AoE
+        - **Submission deadline:** Sunday, ~~13~~ 20 July 2025, 23:59 AoE
         - **Notification of acceptance:** Wednesday, 6 August 2025, 23:59 AoE
         - **Camera-Ready copy due:** Monday, 6 October 2025, 23:59 AoE
         - **Workshop date:** Sunday 26 October 2025
@@ -124,16 +122,16 @@ conference:
   live:
     date: 25.10.2025
     timezone: GMT+2
-    stop:       240  # in minutes
+    stop: 240 # in minutes
     streaming:
       enable: false
-      pause:     60  # in minutes
-      prepend:    5  # in minutes
-      extend:     5  # in minutes
+      pause: 60 # in minutes
+      prepend: 5 # in minutes
+      extend: 5 # in minutes
     demo:
       enable: false
-      duration: 300  # in seconds
-      pause:     10  # in seconds
+      duration: 300 # in seconds
+      pause: 10 # in seconds
 
   talks:
     # Talk categories
@@ -154,9 +152,9 @@ conference:
     # Disable links to locations
     hide: false
     # URL of location / room overview page
-    url: '/location'
+    url: "/location"
     # Main page title shown on location/room navigation bar
-    navbar_title: 'Location'
+    navbar_title: "Location"
     # Show map on location main page.  Set `map: false` if you don't want to
     # display it.
     map:
@@ -169,10 +167,9 @@ conference:
       map_provider: "OpenStreetMap.Mapnik"
       default_zoom: 17
 
-
   program:
     # URL of program page
-    url: '/program'
+    url: "/program"
 
     # Time steps in program table
     time_steps: 15 # in minutes

@@ -14,7 +14,7 @@ We invite researchers to submit original contributions in the form of full paper
 
 ## Important Dates
 
-- **Submission deadline:** Sunday, 13 July 2025, 23:59 AoE
+- **Submission deadline:** Sunday, ~~13~~ 20 July 2025, 23:59 AoE
 - **Notification of acceptance:** Wednesday, 6 August 2025, 23:59 AoE
 - **Camera-Ready copy due:** Monday, 6 October 2025, 23:59 AoE
 - **Workshop date:** Saturday 25 or Sunday 26 October 2025
