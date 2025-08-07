@@ -1,10 +1,10 @@
 days:
-- name: Sunday
-  abbr: Su
-  date: 2025-10-26
-  rooms:
-  - name: Aula 4.2
-    talks:
-      - name: tba
-        time_start: '08:00'
-        time_end: '13:00'
+# - name: Sunday
+#   abbr: Su
+#   date: 2025-10-26
+#   rooms:
+#   - name: Aula 4.2
+#     talks:
+#       - name: tba
+#         time_start: '08:00'
+#         time_end: '13:00'
