@@ -20,6 +20,7 @@ permalink: /committee/
 
 ## Programm Committee
 
+- Dragos Calitoiu, Canadian Joint Warfare Centre
 - Simona Pūkienė, Center of Physical Sciences and Technology Vilnius
 - Kairi Tavles, Research Fellow at Estonian Military Academy
 - Sabine Apfeld, Fraunhofer Institute for Communication, Information Processing and Ergonomics FKIE
