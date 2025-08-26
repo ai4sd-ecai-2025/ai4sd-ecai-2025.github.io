@@ -5,6 +5,6 @@ days:
   rooms:
   - name: Aula 4.2
     talks:
-      - name: Opening Remarks
+      - name: OpeningRemarks
         time_start: '09:00'
         time_end: '09:10'
