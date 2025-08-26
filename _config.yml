@@ -136,11 +136,11 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Keynote
+      - name: Remarks
         color: warning
       - name: Paper presentation
         color: success
-      - name: Placeholder
+      - name: Break
         color: info
 
     # Hide icons on talk overview page
